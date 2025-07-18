@@ -11,8 +11,19 @@ It tests the [saucedemo.com](https://www.saucedemo.com) e-commerce site using th
 - Cancel order and logout flows
 - HTML test report via `npx playwright show-report`
 - Config-driven base URL and credentials
+## 🚀 CI Integration
 
----
+This project is integrated with **GitHub Actions** for Continuous Integration.
+
+Every time you push changes or create a pull request to the `main` branch, the following steps are automatically triggered:
+
+- Code is checked out and dependencies are installed
+- Playwright and required browsers are set up
+- All tests are executed headlessly
+- A full HTML report is generated
+- The report is uploaded as an artifact to the GitHub Actions run
+
+You can view the workflow under the [**Actions** tab](../../actions) of this repository.
 
 ## 🧪 Test Scenarios Covered
 - Valid and invalid login attempts
@@ -20,8 +31,6 @@ It tests the [saucedemo.com](https://www.saucedemo.com) e-commerce site using th
 - Checkout flow with dynamic user and product data
 - Cancel order and return to homepage
 - Product sorting validations
-
----
 
 ## 📁 Folder Structure
 ├── pages/ → Page object files
