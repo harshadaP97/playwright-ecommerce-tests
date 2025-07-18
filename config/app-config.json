@@ -1,0 +1,11 @@
+{
+  "baseURL": "https://www.saucedemo.com",
+  "username": "standard_user",
+  "password": "secret_sauce",
+  "invalidusername": "locked_out_user",
+  "item":"Sauce Labs Backpack",
+  "fname":"Harshada",
+  "lname":"Patil",
+  "zipcode":"GH1 BD2"
+
+}
