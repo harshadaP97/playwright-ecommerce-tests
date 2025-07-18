@@ -1,4 +1,5 @@
 # Playwright E-Commerce Tests
+![CI Status](https://github.com/harshadaP97/playwright-ecommerce-tests/actions/workflows/playwright.yml/badge.svg)
 This project is a UI automation framework built with [Playwright](https://playwright.dev/) and TypeScript.  
 It tests the [saucedemo.com](https://www.saucedemo.com) e-commerce site using the Page Object Model (POM), with support for data-driven testing, config management, and HTML reporting.
 
