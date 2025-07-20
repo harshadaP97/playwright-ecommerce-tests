@@ -85,7 +85,7 @@ JSON-based test data
 
 👩‍💻 About
 Harshada Patil — QA Engineer | MSc in Applied Computer Science & AI
-
+---
 ⚠️ Disclaimer
 This project is part of my personal QA portfolio, created to demonstrate my skills and experience.
 Please do not reuse or distribute without permission.
