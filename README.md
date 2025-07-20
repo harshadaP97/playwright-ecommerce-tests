@@ -56,22 +56,13 @@ You can view the workflow under the [**Actions** tab](../../actions).
 
 ## ▶️ How to Run Tests
 Install dependencies:
+
 ```bash
 npm install
-
-Run all tests:
 npx playwright test
-
-Run a specific test file:
 npx playwright test tests/login.spec.ts
-
-Show HTML test report:
 npx playwright show-report
 
-
-📸 Sample HTML Report
-Playwright generates an HTML report after each run using npx playwright show-report.
-...
 📸 Sample HTML Report
 Playwright generates an HTML report after each run using npx playwright show-report.
 To avoid committing auto-generated files, the report folder is excluded.
@@ -94,12 +85,10 @@ JSON-based test data
 👩‍💻 About
 Harshada Patil — QA Engineer | MSc in Applied Computer Science & AI
 
----
 ⚠️ Disclaimer
 This project is part of my personal QA portfolio, created to demonstrate my skills and experience.
 Please do not reuse or distribute without permission.
 Authored by Harshada Patil
-
 
 
 
