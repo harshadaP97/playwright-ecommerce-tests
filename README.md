@@ -62,7 +62,7 @@ npm install
 npx playwright test
 npx playwright test tests/login.spec.ts
 npx playwright show-report
-```markdown
+```
 
 📸 Sample HTML Report
 Playwright generates an HTML report after each run using npx playwright show-report.
