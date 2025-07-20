@@ -55,7 +55,6 @@ You can view the workflow under the [**Actions** tab](../../actions).
 ├── SampleResult/ → Sample HTML report screenshot
 
 ## ▶️ How to Run Tests
-
 Install dependencies:
 ```bash
 npm install
@@ -69,6 +68,10 @@ npx playwright test tests/login.spec.ts
 Show HTML test report:
 npx playwright show-report
 
+
+📸 Sample HTML Report
+Playwright generates an HTML report after each run using npx playwright show-report.
+...
 📸 Sample HTML Report
 Playwright generates an HTML report after each run using npx playwright show-report.
 To avoid committing auto-generated files, the report folder is excluded.
