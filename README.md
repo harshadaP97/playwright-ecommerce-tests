@@ -78,6 +78,7 @@ The playwright-report/ folder is ignored in version control
 Tests are written with a focus on reusability and real-world QA practices
 
 🧰 Tech Stack
+
 Playwright
 TypeScript
 Node.js
